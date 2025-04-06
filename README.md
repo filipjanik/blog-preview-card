@@ -19,7 +19,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/social-links-profile-JlyysFsL8a)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/blog-preview-card-Q-b-C1N1oO)
 - Live Site URL: [Hosted on GitHub Pages](https://filipjanik.github.io/blog-preview-card/)
 
 ## My process
