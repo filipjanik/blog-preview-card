@@ -1,0 +1,125 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-gray-500: hsl(0, 0%, 42%);
+  --clr-gray-950: hsl(0, 0%, 7%);
+
+  --ff-main: "Figtree", sans-serif;
+
+  --fs-main: 1rem;
+
+  --fw-medium: 500;
+  --fw-extraBold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* General Styling */
+body {
+  font-family: var(--ff-main);
+  font-size: var(--fs-main);
+  font-weight: var(--fw-medium);
+  color: var(--clr-gray-950);
+  background-color: var(--clr-yellow);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+/* Card Styling */
+.card {
+  max-width: 385px;
+  background-color: var(--clr-white);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  border: 1px solid #000;
+  -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card__img {
+  border-radius: 0.75rem;
+  width: 100%;
+}
+
+.flex-group {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.card__learning {
+  background-color: var(--clr-yellow);
+  max-width: fit-content;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.3rem;
+  font-weight: var(--fw-extraBold);
+  font-size: 0.875rem;
+}
+
+.card__info {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: var(--fw-extraBold);
+  cursor: pointer;
+}
+
+.card__title:hover {
+  color: var(--clr-yellow);
+}
+
+.card__description {
+  margin: 1rem 0;
+  color: var(--clr-gray-500);
+}
+
+.card__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card__profile-img {
+  width: 32px;
+}
+
+.card__profile-name {
+  font-size: 0.875rem;
+  font-weight: var(--fw-extraBold);
+}
